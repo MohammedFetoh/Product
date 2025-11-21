@@ -100,3 +100,12 @@ body {
 .special:hover a {
   color: rgb(60, 128, 103);
 }
+@media (max-width: 767px) {
+  .box {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .box > div {
+    width: 100%;
+  }
+}
